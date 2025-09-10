@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+            width: 100%;
+            height: 160px;
+            background-color: beige;
+        }
+        .logo{
+            width: 19%;
+            height: 160px;
+            background-color: lightcoral;
+            
+            
+            border: 1px solid black;
+            
+
+            float: left;
+        }
+        .page_title{
+            width: 40%;
+            height: 160px;
+            background-color: lightgray;
+            float: left;
+        }
+        .navDiv{
+            width: 40%;
+            height: 160px;
+            background-color: lightcyan;
+            float: left;
+        }
+        
+        header div nav ul{
+            list-style-type: none;
+            float: right;
+            margin-right: 20px;
+        }
+
+        #topNav li{
+            display: inline;
+            margin-right: 6px;
+            background-color: black;
+            padding: 5px 3px;
+            
+        }
+
+        #topNav li a{
+            text-decoration: none;
+            color:white;
+        }
+
+        #topNav li:hover{
+            background-color: white;
+            
+        }
+        #topNav li a:hover{
+            color: black;
+        }
+
+        section{
+        height: 6px;
+
+        border-top-width: 12px;
+        border-top-style: solid;
+        border-top-color: black;
+
+        /*outline-style: dashed;
+        outline-color: red;
+        outline-width: 1px;*/
+
+        outline: dashed red 1px;
+        }
+
+
+        aside{
+            width: 30%;
+            height: 600px;
+            background-color: lightblue;
+            float: left;
+            opacity: 0.7;
+        }
+
+        main{
+            width:70%;
+            height:600px;
+            float: left;
+            background-color: lightgreen;
+
+            background-image: url(../images/img.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+        }
+
+        footer{
+            margin-top: 5px;
+            margin-bottom: 15px;
+            width: 100%;
+            height: 200px;
+            background-color: green;
+            clear: both;
+        }

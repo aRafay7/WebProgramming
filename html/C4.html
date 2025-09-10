@@ -1,0 +1,44 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Class 4</title>
+    </head>
+
+<body>
+    
+    <h1>HTML Forms</h1>
+
+    <form>
+
+       <label for="full_name">Full Name</label> 
+       <input type="text" placeholder="Enter your full name" value="Abdul Rafay" id="full_name"/>
+       <br> 
+       <label for="email">Email</label>
+       <input type="email" placeholder="Enter your email" id="email" required/>
+        <br>
+        <label">Male</label><input type="radio" value="Male" name="gender"/>
+        <label>Female</label><input type="radio" value="Female"name="gender"/>
+        
+        <div>
+            <h3>Select Courses</h3>
+            <label for="html">HTML</label>
+            <input type="checkbox" value="html" id="html" name="courses[]"/>
+            <label for="css">CSS</label>
+            <input type="checkbox" value="html" id="css" name="courses[]"/>
+            <label for="java">JAVA</label>
+            <input type="checkbox" value="html" id="java" name="courses[]"/>
+            <br><br><label for="date">Date</label>
+            <input type="date" id="date" name="date"/>
+            <br><br><label>Age</label>
+            <input type="number" name="age" min="18" max="24" disabled/>
+            <br><br><label>Passport picture</label>
+            <input type="file" name="passport" accept="image/*" />
+            <br><br><br><input type="button" value="Register" />
+            <input type="submit" />
+            <button>Register</button>
+        </div>
+    </form>
+
+</body>
+
+</html>
